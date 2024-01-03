@@ -1,0 +1,88 @@
+@font-face {
+  font-family: muli;
+  src: url(font/Muli-Regular.ttf);
+}
+.box {
+  width: 1200px;
+  margin: 0 auto;
+}
+.main-card {
+  position: relative;
+}
+.card {
+  z-index: -1;
+  position: absolute;
+  width: 1120px;
+  height: 425px;
+  border-radius: 24px;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+}
+.dots-1 {
+  z-index: 1;
+  position: absolute;
+  left: 1035px;
+  top: -18px;
+}
+.dots-2 {
+  z-index: -2;
+  position: absolute;
+  left: -49px;
+  top: 278px;
+}
+h2 {
+  font-family: muli;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 70px;
+}
+.line {
+  width: 56px;
+  height: 2px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+.img-and-txt {
+  display: flex;
+  align-items: flex-end;
+  gap: 30px;
+}
+.img-frame {
+  width: 141px;
+  height: 141px;
+  border-radius: 50%;
+}
+.name {
+  font-family: muli;
+  font-size: 22px;
+  line-height: 48px;
+  color: #fff;
+}
+.job {
+  font-family: muli;
+  font-size: 18px;
+  line-height: 48px;
+  color: #ffffffd9;
+  margin-top: -26px;
+}
+.text {
+  width: 420px;
+  height: 120px;
+  font-family: muli;
+  font-size: 19px;
+  line-height: 30px;
+  color: #ffffffe5;
+}
+.card-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 55px;
+}
+.left-arrow {
+  width: 31.43px;
+  height: 20px;
+}
